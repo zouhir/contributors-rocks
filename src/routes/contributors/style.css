@@ -1,9 +1,23 @@
-.profile {
+.page {
   padding: 50px 20px;
   min-height: 100%;
   width: 100%;
 }
 
+.loading {
+  width: 100%;
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate {
+  width: 100px;
+  height: 100px;
+  background: url("../../assets/loading.svg") center no-repeat;
+  animation: rotation 2s infinite linear;
+}
 .container {
   width: 100%;
   max-width: 820px;
@@ -17,4 +31,13 @@
 .wrapper {
   padding: 0 10px 10px 0px;
   flex: 0 0 33.33%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
