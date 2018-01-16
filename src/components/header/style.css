@@ -1,0 +1,17 @@
+.pageHeader {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.01);
+}
+.menu {
+  width: 120px;
+  background-image: url("../../assets/menu.svg");
+  background-position: 20px center;
+  background-color: #ff3c5e;
+  background-repeat: no-repeat;
+  border: none;
+  height: 100%;
+}
